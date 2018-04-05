@@ -1,14 +1,15 @@
-html,
+html,html,
 body {
   height: 100%;
+  overflow-y: hidden;
 }
 body {
-  background-image: linear-gradient(150deg, rgba(85, 51, 255, 0.5) 15%, rgba(5, 213, 255, 0.5) 70%, #a6ffcb 94%), url("//ununsplash.imgix.net/5/unsplash-bonus.jpg?q=75&fm=jpg&s=816c3ecfd6f8058450e6ae250fac7141");
+  background-image: linear-gradient(180deg, rgba(25, 25, 25, 0.5) 45%,  orange 149%), url("https://scontent.flhr3-1.fna.fbcdn.net/v/t1.0-9/15578787_10211362606730246_2133343531078397937_n.jpg?_nc_cat=0&oh=de2d6ae1b0207374315e74028badaf89&oe=5B2C329E");
   background-repeat: no-repeat;
   background-size: cover;
 }
 body h1 {
-  font: 7vw "museo-sans", sans-serif;
+  font: 6vw "museo-sans", sans-serif;
   letter-spacing: -0.5vw;
   text-align: center;
   position: relative;
@@ -19,6 +20,7 @@ body h1 {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   dispay: block;
+  margin-top: 200px;
 }
 body h1:after {
   width: 100%;
@@ -33,14 +35,26 @@ body h1:after {
 body h1 span {
   width: 100%;
   background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9Imxlc3NoYXQtZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjAlIiB5Mj0iMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM5M0VEQzciIHN0b3Atb3BhY2l0eT0iMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2xlc3NoYXQtZ2VuZXJhdGVkKSIgLz48L3N2Zz4=);
-  background-image: -webkit-linear-gradient(-30deg, #93EDC7, #fff);
-  background-image: -moz-linear-gradient(-30deg, #93EDC7, #fff);
-  background-image: -o-linear-gradient(-30deg, #93EDC7, #fff);
-  background-image: linear-gradient(120deg, #93EDC7, #fff);
+  background-image: -webkit-linear-gradient(-30deg, #2A4768, #fff);
+  background-image: -moz-linear-gradient(-30deg, #2A4768, #fff);
+  background-image: -o-linear-gradient(-30deg, #2A4768, #fff);
+  background-image: linear-gradient(120deg, #2A4768, #fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: absolute;
   top: 0;
   display: block;
   z-index: 2;
+}
+
+
+p {
+    padding-top: 10%;
+    width: 40%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    color: #999;
+    font-size: 2vw;
+    line-height: 2.1vw;
 }
